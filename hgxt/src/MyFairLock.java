@@ -29,7 +29,7 @@ public class MyFairLock extends Thread{
 //        for(int i = 0;i < 10;i++){
 //            thread[i].start();
 //        }
-        String str = "我是华刚，hello";
+        String str = "我是华刚，hello！";
         System.out.println(System.getProperty("file.encoding"));
         byte[] bytes = str.getBytes("GBK");
         System.out.println(new String(bytes));
